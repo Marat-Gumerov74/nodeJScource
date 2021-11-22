@@ -1,0 +1,27 @@
+{
+  "name": "nodejscource",
+  "version": "1.0.0",
+  "description": "the repository contains practical lessons on the nodeJS training course from Evgeny Kovalchuk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marat-Gumerov74/nodeJScource.git"
+  },
+  "author": "gumerovm74@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marat-Gumerov74/nodeJScource/issues"
+  },
+  "homepage": "https://github.com/Marat-Gumerov74/nodeJScource#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

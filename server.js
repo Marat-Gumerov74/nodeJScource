@@ -4,6 +4,7 @@ const app = express();
 const PORT = 3000;
 
 const createPath = (page) => path.resolve(__dirname, 'views', `${page}.html`)
+
 app.listen(PORT, (error) => {
   error ? console.log(error) : console.log(`listening port ${PORT}`);
 });
